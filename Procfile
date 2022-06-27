@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath capstone_api capstone_api.wsgi
+web: gunicorn --pythonpath data_api data_api.wsgi
