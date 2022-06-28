@@ -15,6 +15,7 @@ import dj_database_url
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -28,7 +29,6 @@ SECRET_KEY = 'django-insecure-ms0owie&)k2drvk#&89gwoaph^n8*9k!z1z(-!^%2aov$5bt$6
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', 'glacial-tor-04352.herokuapp.com']
-
 
 # Application definition
 
