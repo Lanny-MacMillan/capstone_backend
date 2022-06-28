@@ -6,7 +6,7 @@ from .serializers import VacationEventSerializer
 from .models import VacationEvent
 
 class VacationEventList(generics.ListCreateAPIView):
-    queryset = VacationEvent.objects.all().order_by('id') # tell django how to retrieve all objects from the DB, order by id ascending
+    queryset = VacationEvent.objects.all().order_by('id') 
     serializer_class = VacationEventSerializer # tell django what serializer to use
 
 class VacationEventDetail(generics.RetrieveUpdateDestroyAPIView):
