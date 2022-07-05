@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['localhost', 'glacial-tor-04352.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'auth_api',
     'corsheaders',
     'rest_framework',
     'data_api',
