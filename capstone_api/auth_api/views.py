@@ -40,6 +40,6 @@ def check_login(request):
             if check_password(password, user.password): #check if passwords match
                 return JsonResponse({'id': user.id, 'email': user.email}) #if passwords match, return a user dict
             else: #passwords don't match so return empty dict
-                return JsonResponse({})
+                return JsonResponse({'p'})
         else: #if email doesn't exist in db, return empty dict
             return JsonResponse({})
